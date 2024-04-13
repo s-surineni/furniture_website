@@ -130,7 +130,7 @@ html {
     width: 100%;
     height: 90vh;
     position: relative;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .landing-bg {
@@ -177,7 +177,7 @@ html {
 
 .banner-btn {
     position: absolute;
-    top: 28rem;
+    top: 35rem;
     width: 18rem;
     height: 4rem;
     border: none;
