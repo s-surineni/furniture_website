@@ -552,3 +552,75 @@ html {
     cursor: pointer;
 }
 /* end of contact */
+
+/* footer */
+.footer {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    border-top: .1rem solid #ccc;
+}
+
+.copyright {
+    font-size: 1.6rem;
+    color: #073e72;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand i {
+    font-size: 2rem;
+    color: #f8872b;
+    margin-right: 1.5rem;
+}
+
+.brand h1 {
+    font-size: 2rem;
+    color: #073e72;
+    font-family: "Kenia", cursive;
+    letter-spacing: .3rem;
+}
+/* end of footer */
+
+/* responsive */
+@media (max-width: 1600px) {
+    .banner {
+        width: 70%;
+    }
+
+    .products {
+        padding-top: 10rem;
+        height: 100vh;
+    }
+
+    .products-top {
+        width: 70%;
+    }
+
+    .products-icons {
+        width: 70%;
+    }
+
+    .pricing-cards {
+        width: 70%;
+    }
+
+    .blog-content {
+        width: 70%;
+    }
+
+    .contact-content {
+        width: 70%;
+    }
+
+    .footer {
+        width: 70%;
+    }
+}
+/* end of responsive */
